@@ -35,7 +35,7 @@ eduquest\public\Screenshot 2026-06-14 221500.png
 eduquest\public\Screenshot 2026-06-14 221417.png
 
 # youtube video -->
-https://youtu.be/paixoIddFFs
+https://youtu.be/X-ld6_GkUKA
 
 ### 🌐 Step 5: Deployment
 ```markdown
