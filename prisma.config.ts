@@ -1,8 +1,5 @@
-import { defineConfig } from "@prisma/config";
+import { PrismaClient } from "@prisma/client";
 
-export default defineConfig({
-  datasource: {
-    url: "file:./dev.db", // path to your SQLite database file
-  },
-});
+const prisma = new PrismaClient();
+
 
