@@ -38,7 +38,7 @@ eduquest\public\Screenshot 2026-06-14 221417.png
 ```markdown
 ## 🌐 Deployment
 EduQuest is deployed on [Vercel](https://vercel.com).  
-Live demo: https://eduquest.vercel.app
+Live demo: eduquest-jade.vercel.app
 
 ## 📝 Submission Notes
 This project was built for Agents League Hackathon.  
