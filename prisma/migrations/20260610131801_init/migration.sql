@@ -1,0 +1,18 @@
+-- CreateTable
+CREATE TABLE "Habit" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "streak" INTEGER NOT NULL DEFAULT 0,
+    "xpValue" INTEGER NOT NULL DEFAULT 10,
+    "completed" BOOLEAN NOT NULL DEFAULT false,
+    "userId" INTEGER NOT NULL,
+    CONSTRAINT "Habit_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+-- CreateTable
+CREATE TABLE "User" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "xp" INTEGER NOT NULL DEFAULT 0,
+    "goals" TEXT
+);
